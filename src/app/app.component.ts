@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-firebase-github-action';
+  ngOnInit() {
+    console.log("OMAR");
+  }
 }
